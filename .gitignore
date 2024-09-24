@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment folders
+venv/
+.env
+.env.*
+
+# Logs and other data
+*.log
+*.sqlite3
+*.db
+*.sql
+
+# Ignore .env files that contain sensitive environment variables
+.env
+
+# Flask related
+instance/
+*.pyo
+*.pyc
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Twilio, OpenAI, and other API credentials
+twilio_creds.json
+openai_creds.json
+
+# Node.js (if used for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor settings
+.idea/
+.vscode/
